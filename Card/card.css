@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 340px;
+  background: #d9d9d9;
+  border-radius: 14px 14px 0px 0px;
+  margin: 20px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1f3347;
+  margin-top: 100%;
+  width: 340px;
+  height: 145px;
+  padding: 20px 0px 0px 20px;
+  background: #ffffff;
+  box-shadow: 0px 6px 24px #e4e2ee;
+}
+.card_text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 0px 0px 3px;
+}
+.img_1 {
+  width: 65px;
+  height: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+  color: #9da1b4;
+}
+.img_2 {
+  width: 75px;
+  height: 14.26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+  color: #9da1b4;
+}
+.img_3 {
+  width: 130px;
+  height: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #9da1b4;
+}
+.img_4 {
+  width: 122px;
+  height: 14.26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  font-size: 16px;
+  text-align: center;
+  color: #9da1b4;
+}
+.btn {
+  width: 88px;
+  height: 30px;
+  background: #6347f9;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 75px;
+}
+.btn:hover {
+   background-color: #1f3347;
+}

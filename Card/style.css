@@ -1,0 +1,13 @@
+body {
+  background-color: white;
+
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+
+code {
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
